@@ -279,17 +279,17 @@ body {
 }
 #header:before {
   top: 0;
-  background: -webkit-linear-gradient(rgba(0,0,0,0.2), transparent);
-  background: -moz-linear-gradient(rgba(0,0,0,0.2), transparent);
-  background: -ms-linear-gradient(rgba(0,0,0,0.2), transparent);
-  background: linear-gradient(rgba(0,0,0,0.2), transparent);
+  background: -webkit-linear-gradient(rgba(255,255,255,0.2), transparent);
+  background: -moz-linear-gradient(rgba(255,255,255,0.2), transparent);
+  background: -ms-linear-gradient(rgba(255,255,255,0.2), transparent);
+  background: linear-gradient(rgba(255,255,255,0.2), transparent);
 }
 #header:after {
   bottom: 0;
-  background: -webkit-linear-gradient(transparent, rgba(0,0,0,0.2));
-  background: -moz-linear-gradient(transparent, rgba(0,0,0,0.2));
-  background: -ms-linear-gradient(transparent, rgba(0,0,0,0.2));
-  background: linear-gradient(transparent, rgba(0,0,0,0.2));
+  background: -webkit-linear-gradient(transparent, rgba(255,255,255,0.2));
+  background: -moz-linear-gradient(transparent, rgba(255,255,255,0.2));
+  background: -ms-linear-gradient(transparent, rgba(255,255,255,0.2));
+  background: linear-gradient(transparent, rgba(255,255,255,0.2));
 }
 #header-outer {
   height: 100%;
@@ -305,7 +305,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("images/bkgd.png") center #000;
+  background: url("images/nefufooter.png") center #000;
   background-size: cover;
   z-index: -1;
 }
